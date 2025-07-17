@@ -1,6 +1,6 @@
 flask
 flask-cors
-tensorflow
+tensorflow==2.11.0
 Pillow
 numpy
 huggingface_hub

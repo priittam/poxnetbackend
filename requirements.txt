@@ -1,6 +1,6 @@
 flask
 flask-cors
-tensorflow
+tensorflow==2.13.0
 Pillow
 numpy
 gdown

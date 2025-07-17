@@ -26,11 +26,6 @@ MODEL_CONFIG = {
         'hf_filename': 'ResNet50V2-01.keras',
         'input_size': (256, 256),
         'preprocess': resnet_preprocess
-    },
-    'VGG16_weights.keras': {
-        'path': 'D:/MACHINE__LEARNING/ALL_DISEASES/All_disease_model/VGG16_weights.keras',
-        'input_size': (224, 224),
-        'preprocess': VGG16_preprocess
     }
 
 }

@@ -86,7 +86,7 @@ def predict():
                model_path = hf_hub_download(
                repo_id=config['hf_repo'],
                filename=config['hf_filename'],
-               token=os.getenv("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")  ) # Or directly set your token here if needed
+               token=os.getenv("HF_TOKEN")  ) # Or directly set your token here if needed
 
            else:
                model_path = config['path']
